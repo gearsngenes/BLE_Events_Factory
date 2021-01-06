@@ -1,7 +1,3 @@
-/*
-This library is a wrapper class for the Adafruit BluefruitLE FeatherWing.
-The original code for the libraries we are wrapping were written by Adafruit Industries
-*/
 #include "Arduino.h"
 #include <SPI.h>
 #include "Adafruit_BLE.h"
@@ -60,7 +56,7 @@ class GnG_BLE_HWSPI
     int8_t memBLUEFRUIT_SPI_RST;
 
    // String givenFeatherName= "Adafruit Bluefruit LE";
-
+    
     boolean memVerboseMode = true;
 
     Adafruit_BluefruitLE_SPI* internalBLE;
